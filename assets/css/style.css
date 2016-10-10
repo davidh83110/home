@@ -83,12 +83,17 @@ h2 {
 	position: relative;
 }
 
-.profile #avatar {
+.profile #img {
 	display: inline-block;
 	width: 140px;
 	height: 140px;
 	border-radius: 50%;
 	margin-bottom: 20px;
+	padding-bottom: 0.2em;
+}
+
+.circle #zoom {
+	border-radius: 50%;
 }
 
 .profile h1 {
