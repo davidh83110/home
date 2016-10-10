@@ -235,14 +235,14 @@
             mainFrame.contentWindow.location.href = getInitialUrl();
         }
         
-        function getInitialUrl() {
+       /* function getInitialUrl() {
             var pageName = HashString("p");
             if(pageName.length > 0) return pageName + ".html";
             else {
                 var url = getFirstPageUrl($axure.document.sitemap.rootNodes);
                 return (url ? url : "about:blank");
             }
-        }
+        } */
 
         function getFirstPageUrl(nodes) {
             for (var i = 0; i < nodes.length; i++) {
@@ -315,8 +315,8 @@
 
     --></script>
 
-    <link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
-    <script type="text/javascript" src="plugins/sitemap/sitemap.js"></script>
+    <!--<link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
+    <script type="text/javascript" src="plugins/sitemap/sitemap.js"></script>-->
     <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
     <script type="text/javascript" src="plugins/page_notes/page_notes.js"></script>
 
