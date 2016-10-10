@@ -1,0 +1,33 @@
+name: David Hsu
+description: Life is a crontab.
+meta_description: "David Hsu"
+
+
+markdown: kramdown
+highlighter: rouge
+
+paginate: 50
+baseurl: /
+domain_name: 'https://davidh83110.github.io/home'
+#google_analytics: 'UA-62842593-1'
+disqus_shortname: 'davidh83110'
+
+# Details for the RSS feed generator
+url:            'http://davidh83110.com'
+author:         'David Hsu'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
