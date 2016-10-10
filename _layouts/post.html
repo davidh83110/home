@@ -1,48 +1,46 @@
 ---
-layout: default
-disqus: true
-readmore: true
+layout: layout
 ---
 
-<article class="post">
-    <header>
-        <h1>{{ page.title }}</h1>
-        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
-    </header>
-    <section id="post-body">
-        {{content}}
-    </section>
-</article>
-<footer id="post-meta" class="clearfix">
-    <a href="http://twitter.com/nickbalestra">
-        <img class="avatar" src="/assets/images/profile.png">
-        <div>
-            <span class="dark">Nick Balestra</span>
-            <span>Software engineer</span>
-        </div>
-    </a>
-
-    <section id="sharing">
-        {% include share.html %}
-    </section>
-</footer>
-
-<!-- Disqus comments -->
-{% if layout.disqus %}
-    {% include disqus.html %}
-{% endif %}
-
-<!-- Archive -->
-{% if layout.readmore %}
-    <ul id="post-list" class="archive readmore">
-        <h3>Read more</h3>
-        {% for post in site.posts %}
-            <li>
-                <a href="{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-            </li>
-        {% endfor %}
-    </ul>
-{% endif %}
-
-{% include footer.html %}
-
+<div class="container">
+	<div class="blog-post">
+		<h3>
+		  <strong><a href="{{ page.url }}">{{ page.title }}</a></strong>
+		</h3>
+	</div>
+	<div class="blog-title">
+		<h4>
+		{{ page.date | date: "%B %e, %Y" }}
+			&nbsp;&nbsp;
+			{% for tag in page.tags %}
+			 <span class="label label-success">{{ tag }}</span>
+			{% endfor %}
+		</h4>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="blogpost">
+			  {{ content }}
+			   <hr>
+			   <div class="related-posts">
+				   <h5>Related Posts</h5>
+				   {% for post in site.related_posts limit:3 %}
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	{{ post.date | date: "%B %e, %Y" }}
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					{% endfor %}
+			   </div>
+			</div>
+		</div>
+	</div>
+	{% include disqus.html %}
+</div>
