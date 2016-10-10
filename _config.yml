@@ -9,11 +9,11 @@ highlighter: rouge
 paginate: 50
 baseurl: /
 domain_name: 'https://www.davidh83110.com'
-#google_analytics: 'UA-62842593-1'
+google_analytics: 'UA-85468802-2'
 disqus_shortname: 'davidh83110'
 
 # Details for the RSS feed generator
-url:            'http://davidh83110.com'
+url:            'http://www.davidh83110.com'
 author:         'David Hsu'
 
 permalink:       /:year/:title/
