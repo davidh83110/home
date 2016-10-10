@@ -88,19 +88,17 @@ h2 {
 	width: 140px;
 	height: 140px;
 	border-radius: 50%;
-	margin-bottom: 20px;
-	padding-bottom: 0.2em;
 }
 
 .profile h1 {
 	font-weight: 400;
 	letter-spacing: 0px;
-	font-size: 20px;
+	font-size: 30px;
 	color: #222;
 }
 
 .profile h2 {
-	font-size: 20px;
+	font-size: 10px;
 	  font-weight: 300;
 	  color: #aaa;
 	  margin-top: 10px;
