@@ -7,7 +7,7 @@ markdown: kramdown
 highlighter: rouge
 
 paginate: 50
-baseurl: 'home'
+baseurl: /home
 domain_name: ' https://davidh83110.github.io/ '
 #google_analytics: 'UA-62842593-1'
 disqus_shortname: 'davidh83110'
