@@ -8,7 +8,7 @@ highlighter: rouge
 
 paginate: 50
 baseurl: '/'
-domain_name: 'https://davidh83110.github.io/home'
+domain_name: 'https://davidh83110.github.io/home/'
 #google_analytics: 'UA-62842593-1'
 disqus_shortname: 'davidh83110'
 
