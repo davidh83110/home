@@ -92,10 +92,13 @@
 }
 #u6 {
   position:absolute;
-  left:230px;
-  top:307px;
+  left:233px;
+  top:304px;
   width:67px;
-  height:26px;
+  height:27px;
+  font-family:'Verdana', 'Verdana';
+  font-weight:400;
+  font-style:normal;
   font-size:22px;
   color:#3399FF;
   text-align:center;
@@ -105,7 +108,7 @@
   left:0px;
   top:0px;
   width:67px;
-  height:26px;
+  height:27px;
 }
 #u7 {
   position:absolute;
@@ -116,10 +119,13 @@
 }
 #u8 {
   position:absolute;
-  left:300px;
-  top:305px;
-  width:7px;
-  height:26px;
+  left:301px;
+  top:302px;
+  width:11px;
+  height:27px;
+  font-family:'Verdana', 'Verdana';
+  font-weight:400;
+  font-style:normal;
   font-size:22px;
   color:#515151;
   text-align:center;
@@ -128,22 +134,25 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:7px;
-  height:26px;
+  width:11px;
+  height:27px;
 }
 #u9 {
   position:absolute;
   left:0px;
   top:0px;
-  width:7px;
+  width:11px;
   white-space:nowrap;
 }
 #u10 {
   position:absolute;
-  left:312px;
-  top:307px;
+  left:315px;
+  top:304px;
   width:62px;
-  height:26px;
+  height:27px;
+  font-family:'Verdana', 'Verdana';
+  font-weight:400;
+  font-style:normal;
   font-size:22px;
   color:#3399FF;
   text-align:center;
@@ -153,7 +162,7 @@
   left:0px;
   top:0px;
   width:62px;
-  height:26px;
+  height:27px;
 }
 #u11 {
   position:absolute;
@@ -483,10 +492,13 @@
 }
 #u34 {
   position:absolute;
-  left:376px;
-  top:305px;
-  width:7px;
-  height:26px;
+  left:379px;
+  top:302px;
+  width:11px;
+  height:27px;
+  font-family:'Verdana', 'Verdana';
+  font-weight:400;
+  font-style:normal;
   font-size:22px;
   color:#515151;
   text-align:center;
@@ -495,22 +507,25 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:7px;
-  height:26px;
+  width:11px;
+  height:27px;
 }
 #u35 {
   position:absolute;
   left:0px;
   top:0px;
-  width:7px;
+  width:11px;
   white-space:nowrap;
 }
 #u36 {
   position:absolute;
-  left:390px;
-  top:307px;
-  width:95px;
-  height:26px;
+  left:392px;
+  top:304px;
+  width:94px;
+  height:27px;
+  font-family:'Verdana', 'Verdana';
+  font-weight:400;
+  font-style:normal;
   font-size:22px;
   color:#3399FF;
   text-align:center;
@@ -519,13 +534,13 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:95px;
-  height:26px;
+  width:94px;
+  height:27px;
 }
 #u37 {
   position:absolute;
   left:0px;
   top:0px;
-  width:95px;
+  width:94px;
   white-space:nowrap;
 }
